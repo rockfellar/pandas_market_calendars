@@ -2,7 +2,7 @@
 Bombay Stock Exchnage
 """
 
-from datetime import time
+from Timestamptime import time
 
 from pandas import Timestamp
 import sys 
@@ -395,6 +395,24 @@ BSEClosedDay = [
     Timestamp("2024-11-01", tz="UTC"),  # Fri, Diwali
     Timestamp("2024-11-15", tz="UTC"),  # Fri, Guru Nanak's Birthday
     Timestamp("2024-12-25", tz="UTC"),  # Wed, Christmas
+    Timestamp("2025-1-26", tz="UTC"),   # Republic Day, Sunday - Weekend
+    Timestamp("2025-2-26", tz="UTC"),   # Maha Shivaratri,  Wednesday
+    Timestamp("2025-3-14", tz="UTC"),   # Holi, Friday
+    Timestamp("2025-3-31", tz="UTC"),   # Eid-Ul-Fitr, Monday
+    Timestamp("2025-4-6", tz="UTC"),    # Ram Navami, Sunday - Weekend
+    Timestamp("2025-4-10", tz="UTC"),   # "Mahavir Jayanti",    # Thursday
+    Timestamp("2025-4-14", tz="UTC"),   # "Dr. Baba Saheb Ambedkar Jayanti", # Monday
+    Timestamp("2025-4-18", tz="UTC"),   # "Good Friday",        # Friday
+    Timestamp("2025-5-1", tz="UTC"),   #  "Maharashtra Day",    # Thursday
+    Timestamp("2025-6-7", tz="UTC"),   # "Bakri Eid",          # Saturday - Weekend
+    Timestamp("2025-7-6", tz="UTC"),   #  "Moharram",           # Sunday - Weekend
+    Timestamp("2025-8-15", tz="UTC"),   # "Independence Day",   # Friday
+    Timestamp("2025-8-27", tz="UTC"),   # "Ganesh Chaturthi",   # Wednesday
+    Timestamp("2025-10-2", tz="UTC"),   # "Mahatma Gandhi Jayanti", # Thursday
+    Timestamp("2025-10-21", tz="UTC"),   # "Diwali-Laxmi Pujan", # Tuesday (Muhurat Trading)
+    Timestamp("2025-10-22", tz="UTC"),   # "Diwali-Balipratipada", # Wednesday
+    Timestamp("2025-11-5", tz="UTC"),   # "Gurunanak Jayanti",  # Wednesday
+    Timestamp("2025-12-25", tz="UTC"),   # "Christmas",         # Thursday
 ]
 
 
